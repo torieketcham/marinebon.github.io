@@ -1,3 +1,4 @@
 [submodule "mbon_jekyll_theme"]
 	path = mbon_jekyll_theme
 	url = https://github.com/marinebon/mbon_jekyll_theme
+	branch = theme
