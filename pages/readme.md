@@ -35,20 +35,20 @@ The main difference in the approach you take is whether you want to run the Jeky
 ### 1. Local Jekyll Development: ###
 Running Jekyll locally will allow for faster site development, but you must be able to install Ruby on your workstation.
 
-If you are able to run the Ruby/Jekyll environment locally, refer to the [Jekyll Development Environment Set Up](https://ioos.github.io/ioos_jekyll_theme/pages/jekyll/)
+If you are able to run the Ruby/Jekyll environment locally, refer to the [Jekyll Development Environment Set Up](https://ioos.github.io/mbon_jekyll_theme/pages/jekyll/)
 page for the steps required for this approach.
 
 ### 2.  GitHub Pages-based Development: ###
 If you can't run Ruby/Jekyll on your workstation, you can still make a GitHub Pages documentation site based on this
-template.  The process to do this is to download the code from the ['gh-pages'](https://github.com/ioos/ioos_jekyll_theme/tree/gh-pages)
+template.  The process to do this is to download the code from the ['gh-pages'](https://github.com/ioos/mbon_jekyll_theme/tree/gh-pages)
 branch of this repository, adapt for your site needs, and publish to a 'gh-pages' branch of your own repository.  Instructions to do this:
 
 ```
 cd /my/sourcecode/dir
-git clone --recursive -b gh-pages https://github.com/ioos/ioos_jekyll_theme.git
-cd ioos_jekyll_theme
+git clone --recursive -b gh-pages https://github.com/ioos/mbon_jekyll_theme.git
+cd mbon_jekyll_theme
 ```
-Next, you will need to copy the files downloaded to the 'ioos_jekyll_theme' directory to your target repository.
+Next, you will need to copy the files downloaded to the 'mbon_jekyll_theme' directory to your target repository.
 Assuming you have an existing repository, the easiest way to do this is to create a new 'gh-pages' branch, and then remove
 all git-tracked files and replace by the template code.  Roughly, this looks like (use with caution):
 
@@ -58,14 +58,14 @@ git checkout -b gh-pages master
 git rm -r *
 git rm .*
 ```
-Then copy from the ioos_jekyll_theme repository and add all the file to git for tracking ```git add *```.
+Then copy from the mbon_jekyll_theme repository and add all the file to git for tracking ```git add *```.
 Once you have the code in hand, instructions below describe relevant files to modify to adapt the template to your needs.\
 
 When you've made changes and you would like to see how they look on your GitHub Pages site, simply commit and push them
 up to your GitHub repo:
 
 ```
-git commit -am "Initial GitHub Pages site built using 'ioos_jekyll_theme'"
+git commit -am "Initial GitHub Pages site built using 'mbon_jekyll_theme'"
 git push origin gh-pages
 ```
 

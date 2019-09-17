@@ -5,7 +5,7 @@ sitemap: false
 permalink: /pages/jekyll/
 ---
 ## Jekyll Development Setup ##
-Brief instructions describing the Jekyll 'ioos_jekyll_theme' theme setup for local development.  Following these instructions,
+Brief instructions describing the Jekyll 'mbon_jekyll_theme' theme setup for local development.  Following these instructions,
 including the Jekyll dependency installation will provide you a full development environment and the template code used
 to run this site.
 
@@ -27,7 +27,7 @@ to run this site.
 gem install jekyll
 ```
 
-- The Minimal Mistakes theme (basis for the ioos_jekyll_theme) recommends installing Bundler for dependency
+- The Minimal Mistakes theme (basis for the mbon_jekyll_theme) recommends installing Bundler for dependency
 management to run Jekyll more easily.  See the [install docs](https://mmistakes.github.io/minimal-mistakes/docs/installation/)
 for more info.
 
@@ -35,13 +35,13 @@ for more info.
 gem install bundler
 ```
 
-- Clone the ioos_jekyll_theme GitHub repo ('gh-pages' branch) to get this example code.  This will include a
+- Clone the mbon_jekyll_theme GitHub repo ('gh-pages' branch) to get this example code.  This will include a
 git submodule reference to the 'master' branch which includes the theme itself.  
 
 ```
 cd /my/sourcecode/dir
-git clone --recursive -b gh-pages https://github.com/ioos/ioos_jekyll_theme.git
-cd ioos_jekyll_theme
+git clone --recursive -b gh-pages https://github.com/ioos/mbon_jekyll_theme.git
+cd mbon_jekyll_theme
 ```
 
 - Install dependencies via Bundler:
@@ -67,7 +67,7 @@ the standard Jekyll \_config.yml file only.
 
 Out of the box, this will publish a local Jekyll service listening on port 4000, with the site available at this URL:
 
-[http://localhost:4000/ioos_jekyll_theme/](http://localhost:4000/ioos_jekyll_theme/)
+[http://localhost:4000/mbon_jekyll_theme/](http://localhost:4000/mbon_jekyll_theme/)
 
 The path the site is deployed to should be modified to match your repository name by changing the 'baseurl' setting
  in the \_config.yml (primary Jekyll config/GitHub Pages deployment settings file) and the \_config_dev.yml
