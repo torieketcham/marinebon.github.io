@@ -6,8 +6,8 @@ With this rebuild the following MBON web pages will be updated (and merged where
 * https://ioos.noaa.gov/project/bio-data/  
 * marinebon.github.io
 
-The `theme` branch contains a modified fork of the IOOS theme, and the `website` branch contains the actual content of the website.
-The `gh-pages` branch is used by Travis.CI to deploy the website to GitHub's servers.
+The jekyll theme used ([mbon_jekyll_theme](github.com/marinebon/mbon_jekyll_theme)) is a modified fork of the IOOS theme, and the `src` branch contains the actual content of the website.
+The `master` branch is used by Travis.CI to deploy the website to GitHub's servers as a static website.
 
 ## dev
 ### setup

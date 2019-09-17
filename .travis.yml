@@ -5,8 +5,7 @@ dist: xenial
 # blocklist
 branches:
   except:
-  - theme
-  - gh-pages
+  - master
 
 # === setup install & build
 cache: bundler
@@ -32,11 +31,11 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   on:  # deployment limitations
-    branch: website
+    branch: master
 
   local_dir: _site
   # fqdn: travis-blogdown.yihui.name  # this sets CNAME for custom DN
-  keep_history: true
+  keep_history: false
 
 notifications:
   email:
