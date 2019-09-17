@@ -37,7 +37,7 @@ deploy:
   # fqdn: travis-blogdown.yihui.name  # this sets CNAME for custom DN
   keep_history: true
   edge:
-    branch: v1.8.47  # v1.9.1+ ?
+    branch: v1.9.1
 
 notifications:
   email:
