@@ -1,0 +1,35 @@
+# main links links
+main:
+  - title: "About MBON"
+    url: /index.html
+
+  - title: "News"
+    url: /pages/news/
+
+  - title: "U.S. Projects"
+    url: /pages/us_projects/
+
+  - title: "Data"
+    url: /pages/data/
+
+  - title: "Global Efforts"
+    url: /pages/global_efforts/
+
+  - title: "MBON Pole to Pole"
+    url: /pages/pole_to_pole/
+
+# site_nav links
+site_nav:
+  - title: MBON GLOBAL COLLABORATORS
+    children:
+      - title: "GEO BON"
+        url: "https://geobon.org/"
+        image: geobon_logo.jpg
+
+      - title: "OBIS"
+        url: "https://obis.org/"
+        image: obis_logo.jpg
+
+      - title: "IOOS"
+        url: "https://ioos.noaa.gov/"
+        image: ioos_logo.jpg
