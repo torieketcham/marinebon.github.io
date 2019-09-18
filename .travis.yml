@@ -31,7 +31,7 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   on:  # deployment limitations
-    branch: master
+    branch: src
 
   local_dir: _site
   # fqdn: travis-blogdown.yihui.name  # this sets CNAME for custom DN
