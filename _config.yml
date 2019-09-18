@@ -12,8 +12,8 @@ title_separator          : "-"
 name                     : "IOOS MBON"
 description              : ""
 url                      : "https://marinebon.github.io"
-baseurl                  : "/mbon_jekyll_theme"
-repository               : "marinebon/mbon_jekyll_theme"
+baseurl                  : "/"
+repository               : "marinebon/marinebon.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
