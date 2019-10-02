@@ -21,14 +21,14 @@ words_per_minute         : 200
 #Setup/config for 'mbon_jekyll_theme' git submodule:
 source                   : .
 destination              : _site
-plugins_dir              : mbon_jekyll_theme/_plugins
-layouts_dir              : mbon_jekyll_theme/_layouts
+plugins_dir              : _theme/_plugins
+layouts_dir              : _theme/_layouts
 data_dir                 : _data
-includes_dir             : mbon_jekyll_theme/_includes
+includes_dir             : _theme/_includes
 
 # Sass/SCSS
 sass:
-  sass_dir               : mbon_jekyll_theme/_sass
+  sass_dir               : _theme/_sass
   style                  : compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
