@@ -25,6 +25,8 @@ before_script:
 script:
     # build site
     - bundle exec jekyll build
+    # add .nojekyll to build output so github knows to serve it as a basic static site.
+    - touch _site/.nojekyll
 
 deploy:
   provider: pages
